@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=512000, RESOLUTION=1280x720
+https://class.imooc.com/video/5f8e7c92255ba9031b531997/high.m3u8?cdn=aliyun1&v3domain=1&play_device=&ssl=1&uid=9494245&hxk_uri=https%3A%2F%2Fclass.imooc.com%2Fvideo%2F5f8e7c92255ba9031b531997%2Fhigh.hxk%3Fu%3D9494245%26timestamp%3D1605922272%26token%3Djiuyeban%253AMWQ0OGQyYmY3YmQwMjVkNmMzZDU0Zjk2ODNjNjJmNjU5M2QzNTcxZA%253D%253D&timestamp=1605922272&token=jiuyeban%3ANmNiYTU5MDUxMTIyNzY0NDZhNTM4MTI0YWJhMDBkNmQ1MzBjOWU1MQ%3D%3D
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=384000, RESOLUTION=1280x720
+https://class.imooc.com/video/5f8e7c92255ba9031b531997/medium.m3u8?cdn=aliyun1&v3domain=1&play_device=&ssl=1&uid=9494245&hxk_uri=https%3A%2F%2Fclass.imooc.com%2Fvideo%2F5f8e7c92255ba9031b531997%2Fmedium.hxk%3Fu%3D9494245%26timestamp%3D1605922272%26token%3Djiuyeban%253AMWQ0OGQyYmY3YmQwMjVkNmMzZDU0Zjk2ODNjNjJmNjU5M2QzNTcxZA%253D%253D&timestamp=1605922272&token=jiuyeban%3AN2U0Njc0YjJiNmM3NzgxODVkZDdjZWQ3M2NjZDA4MDViZWQ3ODEzNA%3D%3D
+#EXT-X-STREAM-INF:PROGRAM-ID=1, BANDWIDTH=256000, RESOLUTION=720x480
+https://class.imooc.com/video/5f8e7c92255ba9031b531997/low.m3u8?cdn=aliyun1&v3domain=1&play_device=&ssl=1&uid=9494245&hxk_uri=https%3A%2F%2Fclass.imooc.com%2Fvideo%2F5f8e7c92255ba9031b531997%2Flow.hxk%3Fu%3D9494245%26timestamp%3D1605922272%26token%3Djiuyeban%253AMWQ0OGQyYmY3YmQwMjVkNmMzZDU0Zjk2ODNjNjJmNjU5M2QzNTcxZA%253D%253D&timestamp=1605922272&token=jiuyeban%3AMDA4ZmY3YWIxNzE1Njk1ZTg3YjBmZThkYWUyM2YzMWU4YWUxYzdmOA%3D%3D

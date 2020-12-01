@@ -1,0 +1,6 @@
+lxml
+requests
+simplejson
+pyexecjs
+pycryptodome
+pdfkit

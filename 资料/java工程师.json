@@ -1,0 +1,655 @@
+{
+  "jzw_title": "Java 工程师2020版",
+  "stage_infos": [
+    {
+      "state_title": "阶段一：Java零基础入门",
+      "week_infos": [
+        {
+          "week_title": "第1周 环境搭建与语法入门",
+          "course_infos": [
+            {
+              "course_name": "Java初识",
+              "href": "https://class.imooc.com/course/1330",
+              "course_id": 1330
+            },
+            {
+              "course_name": "Java常量与变量",
+              "href": "https://class.imooc.com/course/1347",
+              "course_id": 1347
+            },
+            {
+              "course_name": "Java运算符",
+              "href": "https://class.imooc.com/course/1348",
+              "course_id": 1348
+            },
+            {
+              "course_name": "Java选择结构",
+              "href": "https://class.imooc.com/course/1349",
+              "course_id": 1349
+            }
+          ]
+        },
+        {
+          "week_title": "第2周 Java语法之循环、数组与方法",
+          "course_infos": [
+            {
+              "course_name": "Java循环结构",
+              "href": "https://class.imooc.com/course/1350",
+              "course_id": 1350
+            },
+            {
+              "course_name": "Java一维数组",
+              "href": "https://class.imooc.com/course/1351",
+              "course_id": 1351
+            },
+            {
+              "course_name": "Java二维数组",
+              "href": "https://class.imooc.com/course/1352",
+              "course_id": 1352
+            },
+            {
+              "course_name": "Java方法",
+              "href": "https://class.imooc.com/course/1353",
+              "course_id": 1353
+            },
+            {
+              "course_name": "综合案例：数组移位与统计",
+              "href": "https://class.imooc.com/course/1434",
+              "course_id": 1434
+            },
+            {
+              "course_name": "Java基础语法测试",
+              "href": "https://class.imooc.com/exam/213",
+              "course_id": 213
+            }
+          ]
+        },
+        {
+          "week_title": "第3周 面向对象之封装与继承",
+          "course_infos": [
+            {
+              "course_name": "Java面向对象",
+              "href": "https://class.imooc.com/course/1332",
+              "course_id": 1332
+            },
+            {
+              "course_name": "Java封装",
+              "href": "https://class.imooc.com/course/1336",
+              "course_id": 1336
+            },
+            {
+              "course_name": "综合案例：学生信息管理",
+              "href": "https://class.imooc.com/course/1373",
+              "course_id": 1373
+            },
+            {
+              "course_name": "Java继承（上）",
+              "href": "https://class.imooc.com/course/1415",
+              "course_id": 1415
+            }
+          ]
+        },
+        {
+          "week_title": "第4周 面向对象之单例模式与多态",
+          "course_infos": [
+            {
+              "course_name": "Java继承（下）",
+              "href": "https://class.imooc.com/course/1432",
+              "course_id": 1432
+            },
+            {
+              "course_name": "Java单例模式",
+              "href": "https://class.imooc.com/course/1436",
+              "course_id": 1436
+            },
+            {
+              "course_name": "Java多态（上）",
+              "href": "https://class.imooc.com/course/1443",
+              "course_id": 1443
+            },
+            {
+              "course_name": "Java多态（下）",
+              "href": "https://class.imooc.com/course/1444",
+              "course_id": 1444
+            },
+            {
+              "course_name": "Java面向对象测试",
+              "href": "https://class.imooc.com/exam/214",
+              "course_id": 214
+            }
+          ]
+        },
+        {
+          "week_title": "第5周 常用工具类（上）",
+          "course_infos": [
+            {
+              "course_name": "Java异常",
+              "href": "https://class.imooc.com/course/1445",
+              "course_id": 1445
+            },
+            {
+              "course_name": "Java包装类",
+              "href": "https://class.imooc.com/course/1446",
+              "course_id": 1446
+            },
+            {
+              "course_name": "Java字符串",
+              "href": "https://class.imooc.com/course/1437",
+              "course_id": 1437
+            },
+            {
+              "course_name": "Java集合",
+              "href": "https://class.imooc.com/course/1438",
+              "course_id": 1438
+            }
+          ]
+        },
+        {
+          "week_title": "第6-7周 常用工具类（下）",
+          "course_infos": [
+            {
+              "course_name": "Java集合排序",
+              "href": "https://class.imooc.com/course/1439",
+              "course_id": 1439
+            },
+            {
+              "course_name": "Java泛型",
+              "href": "https://class.imooc.com/course/1440",
+              "course_id": 1440
+            },
+            {
+              "course_name": "Java多线程",
+              "href": "https://class.imooc.com/course/1435",
+              "course_id": 1435
+            },
+            {
+              "course_name": "Java输入输出流",
+              "href": "https://class.imooc.com/course/1441",
+              "course_id": 1441
+            },
+            {
+              "course_name": "综合案例：播放器",
+              "href": "https://class.imooc.com/course/1442",
+              "course_id": 1442
+            },
+            {
+              "course_name": "Java常用工具测试",
+              "href": "https://class.imooc.com/exam/215",
+              "course_id": 215
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state_title": "阶段二：从网页搭建入门Java Web",
+      "week_infos": [
+        {
+          "week_title": "第8周 前端基础之HTML与CSS",
+          "course_infos": [
+            {
+              "course_name": "HTML入门",
+              "href": "https://class.imooc.com/course/1354",
+              "course_id": 1354
+            },
+            {
+              "course_name": "CSS入门",
+              "href": "https://class.imooc.com/course/1355",
+              "course_id": 1355
+            },
+            {
+              "course_name": "CSS浮动",
+              "href": "https://class.imooc.com/course/1356",
+              "course_id": 1356
+            },
+            {
+              "course_name": "CSS定位",
+              "href": "https://class.imooc.com/course/1357",
+              "course_id": 1357
+            }
+          ]
+        },
+        {
+          "week_title": "第9周 前端基础之JavaScript与综合案例",
+          "course_infos": [
+            {
+              "course_name": "JavaScript入门",
+              "href": "https://class.imooc.com/course/1358",
+              "course_id": 1358
+            },
+            {
+              "course_name": "案例：仿计算器",
+              "href": "https://class.imooc.com/course/1359",
+              "course_id": 1359
+            },
+            {
+              "course_name": "前端企业门户网站案例",
+              "href": "https://class.imooc.com/course/1360",
+              "course_id": 1360
+            },
+            {
+              "course_name": "网页搭建测试",
+              "href": "https://class.imooc.com/exam/216",
+              "course_id": 216
+            }
+          ]
+        },
+        {
+          "week_title": "第10-11周 Java Web基础",
+          "course_infos": [
+            {
+              "course_name": "XML入门",
+              "href": "https://class.imooc.com/course/1334",
+              "course_id": 1334
+            },
+            {
+              "course_name": "Servlet入门",
+              "href": "https://class.imooc.com/course/1338",
+              "course_id": 1338
+            },
+            {
+              "course_name": "JSP入门",
+              "href": "https://class.imooc.com/course/1339",
+              "course_id": 1339
+            },
+            {
+              "course_name": "Servlet与JSP进阶",
+              "href": "https://class.imooc.com/course/1340",
+              "course_id": 1340
+            },
+            {
+              "course_name": "JSTL与EL表达式",
+              "href": "https://class.imooc.com/course/1341",
+              "course_id": 1341
+            },
+            {
+              "course_name": "Java Web基础入门测试",
+              "href": "https://class.imooc.com/exam/217",
+              "course_id": 217
+            }
+          ]
+        },
+        {
+          "week_title": "第12周 常用功能与过滤器",
+          "course_infos": [
+            {
+              "course_name": "JSON入门",
+              "href": "https://class.imooc.com/course/1342",
+              "course_id": 1342
+            },
+            {
+              "course_name": "jQuery与Ajax入门",
+              "href": "https://class.imooc.com/course/1433",
+              "course_id": 1433
+            },
+            {
+              "course_name": "Java正则表达式",
+              "href": "https://class.imooc.com/course/1343",
+              "course_id": 1343
+            },
+            {
+              "course_name": "过滤器",
+              "href": "https://class.imooc.com/course/1344",
+              "course_id": 1344
+            }
+          ]
+        },
+        {
+          "week_title": "第13-14周 监听器与项目实战",
+          "course_infos": [
+            {
+              "course_name": "监听器",
+              "href": "https://class.imooc.com/course/1272",
+              "course_id": 1272
+            },
+            {
+              "course_name": "FreeMarker",
+              "href": "https://class.imooc.com/course/1345",
+              "course_id": 1345
+            },
+            {
+              "course_name": "企业门户网站前后台开发",
+              "href": "https://class.imooc.com/course/1335",
+              "course_id": 1335
+            },
+            {
+              "course_name": "Java Web基础进阶测试",
+              "href": "https://class.imooc.com/exam/218",
+              "course_id": 218
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state_title": "阶段三：Java数据库开发与实战",
+      "week_infos": [
+        {
+          "week_title": "第15-16周 MySQL基础",
+          "course_infos": [
+            {
+              "course_name": "MySQL介绍",
+              "href": "https://class.imooc.com/course/1388",
+              "course_id": 1388
+            },
+            {
+              "course_name": "数据库表的相关操作",
+              "href": "https://class.imooc.com/course/1389",
+              "course_id": 1389
+            },
+            {
+              "course_name": "数据库的基本查询",
+              "href": "https://class.imooc.com/course/1390",
+              "course_id": 1390
+            },
+            {
+              "course_name": "数据库的高级查询",
+              "href": "https://class.imooc.com/course/1391",
+              "course_id": 1391
+            },
+            {
+              "course_name": "MySQL对数据的基本操作",
+              "href": "https://class.imooc.com/course/1392",
+              "course_id": 1392
+            },
+            {
+              "course_name": "MySQL基本函数的使用",
+              "href": "https://class.imooc.com/course/1393",
+              "course_id": 1393
+            },
+            {
+              "course_name": "MySQL的综合应用",
+              "href": "https://class.imooc.com/course/1394",
+              "course_id": 1394
+            }
+          ]
+        },
+        {
+          "week_title": "第17周 Java数据库开发基础",
+          "course_infos": [
+            {
+              "course_name": "IntelliJ IDEA开发工具入门",
+              "href": "https://class.imooc.com/course/1395",
+              "course_id": 1395
+            },
+            {
+              "course_name": "JDBC入门",
+              "href": "https://class.imooc.com/course/1396",
+              "course_id": 1396
+            }
+          ]
+        },
+        {
+          "week_title": "第18周 框架前置知识",
+          "course_infos": [
+            {
+              "course_name": "Maven项目管理",
+              "href": "https://class.imooc.com/course/1397",
+              "course_id": 1397
+            },
+            {
+              "course_name": "工厂模式",
+              "href": "https://class.imooc.com/course/1398",
+              "course_id": 1398
+            },
+            {
+              "course_name": "Java反射",
+              "href": "https://class.imooc.com/course/1399",
+              "course_id": 1399
+            },
+            {
+              "course_name": "Lambda表达式",
+              "href": "https://class.imooc.com/course/1400",
+              "course_id": 1400
+            },
+            {
+              "course_name": "Java数据库基础与前置知识点测试",
+              "href": "https://class.imooc.com/exam/221",
+              "course_id": 221
+            }
+          ]
+        },
+        {
+          "week_title": "第19周 MyBatis基础",
+          "course_infos": [
+            {
+              "course_name": "MyBatis入门",
+              "href": "https://class.imooc.com/course/1401",
+              "course_id": 1401
+            },
+            {
+              "course_name": "MyBatis进阶",
+              "href": "https://class.imooc.com/course/1402",
+              "course_id": 1402
+            }
+          ]
+        },
+        {
+          "week_title": "第20-21周 MyBatis实现OA系统项目实战",
+          "course_infos": [
+            {
+              "course_name": "慕课OA系统实现",
+              "href": "https://class.imooc.com/course/1403",
+              "course_id": 1403
+            }
+          ]
+        },
+        {
+          "week_title": "第22周 Linux环境搭建与Redis应用",
+          "course_infos": [
+            {
+              "course_name": "Linux基础和Java环境搭建",
+              "href": "https://class.imooc.com/course/1405",
+              "course_id": 1405
+            },
+            {
+              "course_name": "Redis入门",
+              "href": "https://class.imooc.com/course/1404",
+              "course_id": 1404
+            },
+            {
+              "course_name": "Java三阶段综合测试",
+              "href": "https://class.imooc.com/exam/230",
+              "course_id": 230
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state_title": "阶段四：从SSM到SpringBoot 项目实战",
+      "week_infos": [
+        {
+          "week_title": "第23-24周 Spring基础",
+          "course_infos": [
+            {
+              "course_name": "Spring IoC容器与Bean管理",
+              "href": "https://class.imooc.com/course/1406",
+              "course_id": 1406
+            },
+            {
+              "course_name": "Spring AOP面向切面编程",
+              "href": "https://class.imooc.com/course/1407",
+              "course_id": 1407
+            },
+            {
+              "course_name": "Spring JDBC与事务管理",
+              "href": "https://class.imooc.com/course/1408",
+              "course_id": 1408
+            }
+          ]
+        },
+        {
+          "week_title": "第25周 Spring MVC基础",
+          "course_infos": [
+            {
+              "course_name": "SpringMVC入门与数据绑定",
+              "href": "https://class.imooc.com/course/1409",
+              "course_id": 1409
+            },
+            {
+              "course_name": "RESTful风格的应用",
+              "href": "https://class.imooc.com/course/1410",
+              "course_id": 1410
+            },
+            {
+              "course_name": "SpringMVC拦截器",
+              "href": "https://class.imooc.com/course/1411",
+              "course_id": 1411
+            },
+            {
+              "course_name": "Spring与SpringMVC测试",
+              "href": "https://class.imooc.com/exam/231",
+              "course_id": 231
+            }
+          ]
+        },
+        {
+          "week_title": "第26周 SSM开发社交网站",
+          "course_infos": [
+            {
+              "course_name": "SSM开发社交网站",
+              "href": "https://class.imooc.com/course/1412",
+              "course_id": 1412
+            }
+          ]
+        },
+        {
+          "week_title": "第27-28周 Spring Boot电商项目实战",
+          "course_infos": [
+            {
+              "course_name": "Spring Boot入门",
+              "href": "https://class.imooc.com/course/1413",
+              "course_id": 1413
+            },
+            {
+              "course_name": "Spring Boot电商项目",
+              "href": "https://class.imooc.com/course/1414",
+              "course_id": 1414
+            }
+          ]
+        },
+        {
+          "week_title": "第29周 面试",
+          "course_infos": [
+            {
+              "course_name": "Java面试——准备",
+              "href": "https://class.imooc.com/course/1416",
+              "course_id": 1416
+            },
+            {
+              "course_name": "Java面试——Java基础面试技巧",
+              "href": "https://class.imooc.com/course/1417",
+              "course_id": 1417
+            },
+            {
+              "course_name": "Java面试——Web基础与数据处理",
+              "href": "https://class.imooc.com/course/1418",
+              "course_id": 1418
+            },
+            {
+              "course_name": "Java面试——主流框架",
+              "href": "https://class.imooc.com/course/1419",
+              "course_id": 1419
+            },
+            {
+              "course_name": "Java四阶段综合测试",
+              "href": "https://class.imooc.com/exam/243",
+              "course_id": 243
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "state_title": "阶段五：Java分布式与微服务实战",
+      "week_infos": [
+        {
+          "week_title": "第30-31周 多线程与分布式",
+          "course_infos": [
+            {
+              "course_name": "线程池",
+              "href": "https://class.imooc.com/course/1420",
+              "course_id": 1420
+            },
+            {
+              "course_name": "ThreadLocal",
+              "href": "https://class.imooc.com/course/1421",
+              "course_id": 1421
+            },
+            {
+              "course_name": "分布式基础",
+              "href": "https://class.imooc.com/course/1422",
+              "course_id": 1422
+            },
+            {
+              "course_name": "Docker应用",
+              "href": "https://class.imooc.com/course/1423",
+              "course_id": 1423
+            },
+            {
+              "course_name": "Nginx",
+              "href": "https://class.imooc.com/course/1424",
+              "course_id": 1424
+            },
+            {
+              "course_name": "消息队列RabbitMQ",
+              "href": "https://class.imooc.com/course/1425",
+              "course_id": 1425
+            }
+          ]
+        },
+        {
+          "week_title": "第32周 Spring Cloud基础",
+          "course_infos": [
+            {
+              "course_name": "微服务基础",
+              "href": "https://class.imooc.com/course/1426",
+              "course_id": 1426
+            },
+            {
+              "course_name": "Spring Cloud开发课程查询功能",
+              "href": "https://class.imooc.com/course/1427",
+              "course_id": 1427
+            }
+          ]
+        },
+        {
+          "week_title": "第33-34周 Spring Cloud电商实战",
+          "course_infos": [
+            {
+              "course_name": "Spring Cloud实现电商项目",
+              "href": "https://class.imooc.com/course/1428",
+              "course_id": 1428
+            }
+          ]
+        },
+        {
+          "week_title": "第35周 Zookeeper+Dubbo应用与面试",
+          "course_infos": [
+            {
+              "course_name": "Zookeeper",
+              "href": "https://class.imooc.com/course/1429",
+              "course_id": 1429
+            },
+            {
+              "course_name": "Dubbo",
+              "href": "https://class.imooc.com/course/1430",
+              "course_id": 1430
+            },
+            {
+              "course_name": "分布式与微服务面试",
+              "href": "https://class.imooc.com/course/1431",
+              "course_id": 1431
+            },
+            {
+              "course_name": "Java五阶段综合测试",
+              "href": "https://class.imooc.com/exam/244",
+              "course_id": 244
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

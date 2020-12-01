@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)https://class.imooc.com/course/1347 -->
+<html><script src="./Java常量与变量-慕课网就业班_files/push.js.下载"></script><script src="./Java常量与变量-慕课网就业班_files/hm.js.下载"></script><script async="" src="./Java常量与变量-慕课网就业班_files/sensorsdata.min.js.下载" charset="UTF-8"></script><script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+	<title>
+	Java常量与变量-慕课网就业班 
+</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    
+    <meta property="qc:admins" content="77103107776157736375">
+	<meta property="wb:webmaster" content="c4f857219bfae3cb">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <meta http-equiv="Cache-Control" content="no-transform ">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+            <link rel="stylesheet" href="./Java常量与变量-慕课网就业班_files/moco.min.css" type="text/css">
+        
+    <link rel="stylesheet" href="./Java常量与变量-慕课网就业班_files/swiper.min.css">
+    <script src="./Java常量与变量-慕课网就业班_files/init.js.下载"></script>
+    <script type="text/javascript">
+        var OP_CONFIG = {"module":"course","page":"index","userout":0,"userInfo":{"uid":9494245}};
+            OP_CONFIG.isLogin = 1;
+            OP_CONFIG.stamp = "";
+        var _msg_unread = 0;  
+        var _not_unread = 0;  
+        var _cart_num = 0;    
+		var requirejsTimestamp="v=202011171801";
+            </script>
+
+    
+
+
+	
+        <script type="text/javascript">
+    
+    eval(function(p,a,c,k,e,d){e=function(c){return(c<a?"":e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1;};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p;}('!4(){3 b={};3 d=0;3 5=[{c:\'//k.p.h/k/m/K/L.q\',6:0},{c:\'//m.p.h/I/J-O.q\',6:0}];3 u=4(){3 j,n=e P("(^| )"+"l=([^;]*)(;|$)");9(j=r.s.M(n)){o N(j[2])}D{o C}};3 A=4(t){3 B=u();3 8=e H();8.G(8.F()+E*v*v*10);r.s="l="+t+";13="+8.14()+";15=/;T=U.h";9(t&&t!=B){R.Y.Z()}};3 x=4(i){3 7=e X();7.V=4(){W(b[i]);b[i]=C;a(i,0)};7.Q=4(){a(i,1)};b[i]=S(4(){7.z="";a(i,1)},11);7.z=5[i].c+"?t="+12.16()};3 a=4(y,6){d++;5[y].6=6;9(d==5.f){3 g=0;w(3 i=0;i<5.f;i++){9(5[i].6==1){g=1}}A(g)}};w(3 i=0;i<5.f;i++){x(i)}}()',62,69,'|||var|function|urls|flag|imgobj|exp|if|callback|timer|url|count|new|length|error|com||arr|static|IMCDNS|img|reg|return|mukewang|png|document|cookie||getcookie|60|for|checkCdn|index|src|setcookie|_0|null|else|24|getTime|setTime|Date|images|unknow|common|logo|match|unescape|80|RegExp|onerror|window|setTimeout|domain|imooc|onload|clearTimeout|Image|location|reload|1000|3000|Math|expires|toGMTString|path|random'.split('|'),0,{}))
+    
+    </script>
+    <link rel="stylesheet" href="./Java常量与变量-慕课网就业班_files/saved_resource" type="text/css">
+<script charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/btype.js"></script><script type="text/javascript" charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/chrome.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/fingerprintjs2/fingerprintjs2.min.js" src="./Java常量与变量-慕课网就业班_files/fingerprintjs2.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/login-regist.js" src="./Java常量与变量-慕课网就业班_files/login-regist.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/chat" src="./Java常量与变量-慕课网就业班_files/chat.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/cart" src="./Java常量与变量-慕课网就业班_files/cart.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/userinfo" src="./Java常量与变量-慕课网就业班_files/userinfo.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/complete_user_info" src="./Java常量与变量-慕课网就业班_files/complete_user_info.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/dist-zhuge" src="./Java常量与变量-慕课网就业班_files/dist-zhuge.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/navsearch" src="./Java常量与变量-慕课网就业班_files/navsearch.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="common/js/advertiseCheck" src="./Java常量与变量-慕课网就业班_files/advertiseCheck.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="course/js/index" src="./Java常量与变量-慕课网就业班_files/index.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/login-view.js" src="./Java常量与变量-慕课网就业班_files/login-view.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="placeholder" src="./Java常量与变量-慕课网就业班_files/placeholder.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="socketio" src="./Java常量与变量-慕课网就业班_files/socket.io.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jqueryValidate" src="./Java常量与变量-慕课网就业班_files/jquery.validate.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="course/common/main" src="./Java常量与变量-慕课网就业班_files/main.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="modalbutton" src="./Java常量与变量-慕课网就业班_files/modal.button.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="autocomplete" src="./Java常量与变量-慕课网就业班_files/autocomplete.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/util/core.js" src="./Java常量与变量-慕课网就业班_files/core.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/jquery-qrcode/jquery.qrcode.min.js" src="./Java常量与变量-慕课网就业班_files/jquery.qrcode.min.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/jquery-nanoscroller/jquery.nanoscroller.js" src="./Java常量与变量-慕课网就业班_files/jquery.nanoscroller.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/signup.js" src="./Java常量与变量-慕课网就业班_files/signup.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/signin.js" src="./Java常量与变量-慕课网就业班_files/signin.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/erweima.js" src="./Java常量与变量-慕课网就业班_files/erweima.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/phoneVerity.js" src="./Java常量与变量-慕课网就业班_files/phoneVerity.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/registerFinished.js" src="./Java常量与变量-慕课网就业班_files/registerFinished.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/emailVerity.js" src="./Java常量与变量-慕课网就业班_files/emailVerity.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/email_RegisterFinished.js" src="./Java常量与变量-慕课网就业班_files/email_RegisterFinished.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/phoneValidate.js" src="./Java常量与变量-慕课网就业班_files/phoneValidate.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/phoneSignin.js" src="./Java常量与变量-慕课网就业班_files/phoneSignin.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/login-regist/tpl/areacode.js" src="./Java常量与变量-慕课网就业班_files/areacode.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/util/cookie.js" src="./Java常量与变量-慕课网就业班_files/cookie.js.下载"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="/static/lib/backbone/backbone-1.0.0.min.js" src="./Java常量与变量-慕课网就业班_files/backbone-1.0.0.min.js.下载"></script></head>
+
+<body>
+
+<!--头部广告位-->
+<div id="globalTopBanner"></div>
+<!--金职位头部广告位-->
+<div id="classIndexTopArea"></div>
+
+
+
+    <div id="new_header">
+    <div class="page-container new-header" id="nav">
+        <ul class="nav-item"> 
+            <li><a href="https://www.imooc.com/" target="_self" class="imooc">慕课网首页</a></li>
+            <li><a href="https://www.imooc.com/course/list" target="_self">免费课程</a></li>           
+            <li><a href="https://coding.imooc.com/" target="_self">实战课程</a></li>
+            <li><a href="https://class.imooc.com/" class="active" target="_self">金职位<i class="icn-new"></i></a></li>
+            <li><a href="https://www.imooc.com/wiki" target="_self">慕课教程</a></li>
+            <li><a href="https://www.imooc.com/read" target="_self">专栏</a></li>
+            <li><a href="https://www.imooc.com/article" target="_self">手记</a></li> 
+            <!-- <li><a href="//job.imooc.com" target="_self">猿聘<i class="icn-new"></i></a></li> -->
+        </ul>
+        <div class="header-right clearfix">
+            <div class="app-download" id="js-app-load">
+                <a href="https://www.imooc.com/mobile/app" target="_blank">下载APP</a>
+                <div class="app-load-box clearfix js-load-box">
+                    <div class="mobile-load-box">
+                        <h4>慕课网APP - 随时随地学编程</h4>
+                        <img src="./Java常量与变量-慕课网就业班_files/appload.png" class="l">
+                        <div class="r">
+                            <a class="app-load-btn" href="https://itunes.apple.com/cn/app/mu-ke-wang/id722179140?mt=8" target="_blank"><i class="icon-apple"></i>App Store下载</a>
+                            <a class="app-load-btn" href="https://www.imooc.com/mobile/appdown" target="_blank"><i class="icon-android"></i>Android下载</a>
+                            <p>扫描下载慕课网APP</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="search-box">
+                <a href="javascript:void(0);" id="common-nav-search">
+                    <i class="imv2-search2"></i>
+                </a>
+                <div class="input-search hide" id="common-input-search">
+                    <div class="input-box">
+                        <input type="text" class="nav-search-input" autocomplete="off">
+                        <a href="javascript:void(0);" class="nav-searchBtn js-nav-searchBtn">
+                            <i class="imv2-search2"></i>
+                        </a>
+                    </div>
+                    <div class="nav-search-box hide">
+                        <div class="hot">
+                            <h2>热搜</h2>
+                            <div class="hot-box"><a href="javascript:void(0)" class="hot-item js-history-search">Vue</a><a href="javascript:void(0)" class="hot-item js-history-search">Python</a><a href="javascript:void(0)" class="hot-item js-history-search">Java</a><a href="javascript:void(0)" class="hot-item js-history-search">flutter</a><a href="javascript:void(0)" class="hot-item js-history-search">springboot</a><a href="javascript:void(0)" class="hot-item js-history-search">docker</a><a href="javascript:void(0)" class="hot-item js-history-search">React</a><a href="javascript:void(0)" class="hot-item js-history-search">小程序</a></div>
+                        </div>
+                        <div class="history hide">
+                            <h2>最近搜索<a href="javascript:void(0);" class="history-clear js-clear-history">清空</a></h2>
+                            <div class="history-box">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="nav-correlate-box hide">
+                        <div class="correlate">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-cart" id="shop-cart">
+                <a href="https://order.imooc.com/pay/cart" class="shop-cart-icon" target="_blank">
+                    <span class="imv2-shopping-cart2 js-endcart"></span><span class="shopping_icon js-cart-num" data-prevnum="0" data-ordernum="0" data-cartnum="0" style="display: none">0</span>
+                </a>
+                <div class="my-cart" id="js-my-cart"></div>
+            </div>
+                        <div id="login-area">
+                <ul class="clearfix logined">
+                    <li class="remind_warp">
+                        <i class="msg_remind" style="display: inline;"></i>
+                        <a target="_blank" href="https://www.imooc.com/u/9494245/notices">
+                            <i class="imv2-bell1"></i>
+                        </a>
+                    </li>
+                    <li class="user-mycourse-box">
+                        <a class="user-card-item js-header-courseurl" href="https://www.imooc.com/u/index/allcourses" target="_self">
+                            <span>我的课程</span>
+                        </a>
+                    </li>
+                    <li class="user-card-box" id="header-user-card">
+                        <a id="header-avator" class="user-card-item js-header-avator" action-type="my_menu" href="https://www.imooc.com/u/index/allcourses" target="_self">
+                            <img width="40" height="40" src="./Java常量与变量-慕课网就业班_files/5b8ce4fc00015bca02000200-100-100.jpg">
+                            <i class="myspace_remind" style="display: none;"></i>
+                            <span style="display: none;">动态提醒</span>
+                        </a>
+                        <div class="g-user-card"><div class="card-inner">                        <div class="card-top clearfix">                            <a href="https://www.imooc.com/u/index/allcourses" class="l"><img src="./Java常量与变量-慕课网就业班_files/5b8ce4fc00015bca02000200-100-100.jpg" alt="慕斯9142637"></a>                            <div class="card-top-right-box l">                                <a href="https://www.imooc.com/u/index/allcourses"><span class="name text-ellipsis">慕斯9142637</span></a>                                <div class="meta">                                    <a href="https://www.imooc.com/u/index/experience">经验<b id="js-user-mp">250</b></a>                                    <a href="https://www.imooc.com/u/index/credit">积分<b id="js-user-credit">1</b></a>                                </div>                            </div>                        </div>                        <div class="user-center-box">                            <ul class="clearfix">                                <li class="l"><a href="https://www.imooc.com/u/index/allcourses" target="_blank"><span class="user-center-icon imv2-kecheng"></span>我的课程</a></li>                                <li class="l">                                    <a href="https://order.imooc.com/myorder" target="_blank"><span class="user-center-icon imv2-receipt"></span>订单中心</a>                                                                    </li>                                <li class="l"><a href="https://www.imooc.com/mall/index" target="_blank"><span class="user-center-icon imv2-score_shop"></span>积分商城</a></li>                                <li class="l"><a href="https://www.imooc.com/user/setbindsns" target="_blank"><span class="user-center-icon imv2-set_1"></span>个人设置</a></li>                            </ul>                        </div><div class="card-history">                            <span class="history-item">                                <span class="tit text-ellipsis">Maven项目管理</span>                                <span class="media-name text-ellipsis">2-2 Maven的安装与配置</span>                                <i class="imv2-history"></i>                                <a href="https://class.imooc.com/lesson/1397#mid=34709" class="continue" title="Maven项目管理
+2-2  Maven的安装与配置">继续</a>                            </span>                    </div><div class="card-sets clearfix"><a href="https://class.imooc.com/passport/user/logout?referer=//www.imooc.com" class="l">安全退出</a></div>                    </div></div>
+                    </li>
+                </ul>
+            </div>
+                    </div>
+    </div>
+</div>    
+
+<div class="body-main">
+
+<style>
+.progress.active:before{
+	width: 0%;
+}
+</style>
+<script>
+/*学习页通用配置*/
+var GC = {
+  course: {
+    id: 1347
+  },
+};
+</script>
+<div class="banner" id="courseBanner">
+	<div class="wrap">
+		<a class="go-back" href="https://class.imooc.com/sc/83/learn">返回主界面</a>
+		<h1><a href="https://class.imooc.com/course/1347">Java常量与变量</a></h1>
+		<div class="banner-info clearfix">
+		
+			<div class="banner-info-left clearfix">
+				<a href="https://class.imooc.com/lesson/1347#mid=31545" class="continue-learn">继续学习</a>
+				<span class="bar">1-1 标识符</span>
+				
+				<div class="finish clearfix">
+					<span class="label">完成</span>
+					<span class="summary">0%</span>
+				</div>
+				
+				<div class="when clearfix">
+					<span class="label">用时</span>
+					<span class="summary">0小时4分钟
+					</span>
+				</div>
+			</div>
+			
+			<div class="banner-info-right clearfix">
+			
+				<div class="learn-info clearfix">
+					<span class="label">视频</span>
+					<span class="summary">
+													17
+											</span>
+				</div>
+
+				<div class="learn-info clearfix">
+					<span class="label">图文</span>
+					<span class="summary">
+													5
+											</span>
+				</div>
+				
+				<div class="learn-info clearfix">
+					<span class="label">习题</span>
+					<span class="summary">
+													16
+											</span>
+				</div>
+				
+				<div class="learn-info clearfix">
+					<span class="label">编程</span>
+					<span class="summary">
+						                                                            5
+                            											</span>
+				</div>
+				
+				<div class="learn-info clearfix">
+					<span class="label">作业</span>
+					<span class="summary">
+													0
+											</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="info-bg" id="js-info-bg">
+	    <div class="cover-img-wrap">
+	    <img data-src="//climg.mukewang.com/5eb5277609d59d0c20000300.jpg" alt="" style="display: none" id="js-cover-img">
+	    </div>
+	    <div class="cover-mask"></div>
+	<canvas width="1730" height="236" class="cover-canvas" id="js-cover-canvas"></canvas></div>
+	<div class="progress active"></div>
+</div>
+
+<div class="wrap course-content clearfix">
+	<div class="con-left curriculum">
+			
+		<div class="tab clearfix" id="tab">
+			<ul class="clearfix">
+				<li class="active"><a href="https://class.imooc.com/course/1347">章节</a></li>
+				<li><a href="https://class.imooc.com/course/1347/question">问答</a></li>
+				<li><a href="https://class.imooc.com/course/1347/note">笔记</a></li>
+				<li style="display:none;" id="wikiOn"><a href="https://class.imooc.com/course/1347/wiki">WIKI</a></li>
+			</ul>
+			
+			
+			
+		</div>
+		
+		
+<div class="course-chapter-list js-chapter-list">
+
+		
+	
+							 
+										 
+											<div class="chapter-item active learned">
+		<h2 class="title clearfix">
+			第1章 标识符与关键字 
+					</h2>
+
+				<ul>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31545">
+									<i class="licon l imv2-video"></i>
+									<span>1-1 标识符 </span>
+										<span class="time">（10:29）</span>
+										
+					
+											<i class="ricon imv2-empty red-icon"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31546">
+									<i class="licon l imv2-video"></i>
+									<span>1-2 关键字 </span>
+										<span class="time">（02:19）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31859">
+									<i class="licon l imv2-exercise"></i>
+									<span>1-3 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty red-icon"></i>
+																<span class="finished">最近学习</span>
+															</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31860">
+									<i class="licon l imv2-exercise"></i>
+									<span>1-4 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=32460">
+									<i class="licon l imv2-tuwen1"></i>
+									<span>1-5 Java中的关键字和保留字 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+					</ul>
+		
+			</div>
+		
+	
+																										<div class="chapter-item active learned">
+		<h2 class="title clearfix">
+			第2章 变量的概念与数据类型 
+					</h2>
+
+				<ul>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31547">
+									<i class="licon l imv2-video"></i>
+									<span>2-1 什么是变量 </span>
+										<span class="time">（09:51）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31548">
+									<i class="licon l imv2-video"></i>
+									<span>2-2 数据类型 </span>
+										<span class="time">（04:23）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31861">
+									<i class="licon l imv2-exercise"></i>
+									<span>2-3 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31862">
+									<i class="licon l imv2-exercise"></i>
+									<span>2-4 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=32461">
+									<i class="licon l imv2-tuwen1"></i>
+									<span>2-5 数值类型的应用场景 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31549">
+									<i class="licon l imv2-video"></i>
+									<span>2-6 基本数据类型详解 </span>
+										<span class="time">（02:40）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=32462">
+									<i class="licon l imv2-tuwen1"></i>
+									<span>2-7 Java基本数据类型的范围 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+					</ul>
+		
+					<div class="material-box"> 
+				<h3>本章辅助材料</h3>
+				<div class="materials">
+										<a class="item" target="_blank" href="http://file1.mukewang.com/view/3182d2648d780f0cf2fcf68e42a6cdc5/0b7c76f2ae5d752107ea343a37f50a57.html?auth_key=1605863789-aDxb-0-7ae5b941b1cabeaf267c6c0816b362bb">
+						<span>
+														文档：
+													</span>
+						<p>浮点型数据教辅</p>
+												<span class="btn">查看</span>
+											</a>
+									</div>
+			</div>
+			</div>
+		
+	
+																																																																													<div class="chapter-item active learned">
+		<h2 class="title clearfix">
+			第3章 数据类型的字面值及变量定义 
+					</h2>
+
+				<ul>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31550">
+									<i class="licon l imv2-video"></i>
+									<span>3-1 整型字面值及变量声明 </span>
+										<span class="time">（11:24）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31863">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-2 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31864">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-3 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31865">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-4 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31551">
+									<i class="licon l imv2-video"></i>
+									<span>3-5 浮点型字面值 </span>
+										<span class="time">（01:45）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31866">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-6 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31867">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-7 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31552">
+									<i class="licon l imv2-video"></i>
+									<span>3-8 浮点型案例 </span>
+										<span class="time">（08:11）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31868">
+									<i class="licon l imv2-code"></i>
+									<span>3-9 编程练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31553">
+									<i class="licon l imv2-video"></i>
+									<span>3-10 局部变量的存储方式 </span>
+										<span class="time">（03:32）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31554">
+									<i class="licon l imv2-video"></i>
+									<span>3-11 字符型字面值 </span>
+										<span class="time">（12:33）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31869">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-12 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31870">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-13 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31871">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-14 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31872">
+									<i class="licon l imv2-code"></i>
+									<span>3-15 编程练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31555">
+									<i class="licon l imv2-video"></i>
+									<span>3-16 Unicode编码 </span>
+										<span class="time">（03:26）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31556">
+									<i class="licon l imv2-video"></i>
+									<span>3-17 布尔类型和字符串的字面值 </span>
+										<span class="time">（08:55）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31873">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-18 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31874">
+									<i class="licon l imv2-code"></i>
+									<span>3-19 编程练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31557">
+									<i class="licon l imv2-video"></i>
+									<span>3-20 变量综合案例 </span>
+										<span class="time">（18:12）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31875">
+									<i class="licon l imv2-code"></i>
+									<span>3-21 编程练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=33107">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-22 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=33108">
+									<i class="licon l imv2-exercise"></i>
+									<span>3-23 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=32463">
+									<i class="licon l imv2-tuwen1"></i>
+									<span>3-24 Java中常见的转义字符 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+					</ul>
+		
+			</div>
+		
+	
+																	<div class="chapter-item active learned">
+		<h2 class="title clearfix">
+			第4章 数据类型转换 
+					</h2>
+
+				<ul>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31558">
+									<i class="licon l imv2-video"></i>
+									<span>4-1 数据类型转换的基本概念 </span>
+										<span class="time">（05:46）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31876">
+									<i class="licon l imv2-exercise"></i>
+									<span>4-2 选择练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31559">
+									<i class="licon l imv2-video"></i>
+									<span>4-3 数据类型转换案例 </span>
+										<span class="time">（06:32）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31877">
+									<i class="licon l imv2-code"></i>
+									<span>4-4 编程练习 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+					</ul>
+		
+			</div>
+		
+	
+											<div class="chapter-item active learned">
+		<h2 class="title clearfix">
+			第5章 常量 
+					</h2>
+
+				<ul>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31560">
+									<i class="licon l imv2-video"></i>
+									<span>5-1 常量 </span>
+										<span class="time">（04:27）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=32473">
+									<i class="licon l imv2-tuwen1"></i>
+									<span>5-2 常见编译运行错误——排错必看 </span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+					</ul>
+		
+			</div>
+		
+	
+								<div class="chapter-item active learned">
+		<h2 class="title clearfix">
+			第6章 课程总结 
+					</h2>
+
+				<ul>
+						<li class="clearfix">
+				<a target="_blank" class="clearfix" href="https://class.imooc.com/lesson/1347#mid=31561">
+									<i class="licon l imv2-video"></i>
+									<span>6-1 课程总结 </span>
+										<span class="time">（06:42）</span>
+										
+					
+											<i class="ricon imv2-empty"></i>
+																				</a>
+				
+			</li>
+					</ul>
+		
+			</div>
+	</div>
+
+	</div>
+	
+	
+	<div class="con-right">
+	<div class="section">
+		<h2>课程介绍</h2>
+				<p class="con">Java的基本概念，包括标识符、关键字、数据类型、字面值、变量和常量等。</p>
+	</div>
+
+	
+		<div class="section">
+		<h2>辅助材料</h2>
+		<div class="tab-menu"> 
+			<div class="menu js-material-menu active" data-type="all">
+				全部
+			</div>
+			<div class="menu js-material-menu" data-type="0">
+				文档
+			</div>
+			<div class="menu js-material-menu" data-type="1">
+				代码
+			</div>
+			<div class="menu js-material-menu" data-type="2">
+				工具
+			</div>
+			<div class="menu js-material-menu" data-type="3">
+				PPT
+			</div>
+		</div>
+		<ul class="aid-sheet">
+						<li class="clearfix">
+				<a href="http://file.mukewang.com/class/assist/1347/217186/aktdymz7y9m/%E5%B8%B8%E9%87%8F%E4%B8%8E%E5%8F%98%E9%87%8Fsrc.zip" target="_blank" class="item js-material-item js-material-item-1">
+					<span class="label">
+										代码
+										</span>
+					<span class="text">常量与变量-src</span>
+										<span class="href">下载</span>
+									</a>
+			</li>
+						<li class="clearfix">
+				<a href="http://file1.mukewang.com/view/b5f51d66335be5db7b455d163f3cd707/82a46fb26ff4abd2d36b9a1e5cda68d2.html?auth_key=1605863789-aDxb-0-2758d33df38e0add78a0f6cb5fa8699d" target="_blank" class="item js-material-item js-material-item-4">
+					<span class="label">
+					 
+					文档
+										</span>
+					<span class="text">常量与变量</span>
+										<span class="href">查看</span>
+									</a>
+			</li>
+						<li class="clearfix">
+				<a href="http://file1.mukewang.com/view/3182d2648d780f0cf2fcf68e42a6cdc5/0b7c76f2ae5d752107ea343a37f50a57.html?auth_key=1605863789-aDxb-0-7ae5b941b1cabeaf267c6c0816b362bb" target="_blank" class="item js-material-item js-material-item-4">
+					<span class="label">
+					 
+					文档
+										</span>
+					<span class="text">浮点型数据教辅</span>
+										<span class="href">查看</span>
+									</a>
+			</li>
+					</ul>
+	</div>
+		
+
+</div>
+</div>
+
+
+	
+	
+
+</div>
+
+
+	<div id="footer">
+<div class="waper">
+    <div class="footerwaper clearfix">
+        <div class="followus r">
+            <a class="followus-weixin" href="javascript:;" target="_blank" title="微信">
+                <div class="flw-weixin-box"></div>
+            </a>
+            <a class="followus-weibo" href="http://weibo.com/u/3306361973" target="_blank" title="新浪微博"></a>
+            <a class="followus-qzone" href="http://user.qzone.qq.com/1059809142/" target="_blank" title="QQ空间"></a>
+        </div>
+        <div class="footer_intro l">
+            <div class="footer_link">
+                <ul>
+                    <li><a href="https://www.imooc.com/" target="_blank">网站首页</a></li>
+                    <!-- <li><a href="//www.imooc.com/index/companytrain" target="_blank" title="企业合作">企业合作</a></li> -->
+                    <li><a href="https://b.imooc.com/" target="_blank" title="企业服务">企业服务</a></li>
+                    <li><a href="https://www.imooc.com/about/job" target="_blank">人才招聘</a></li>
+                    <li> <a href="https://www.imooc.com/about/contact" target="_blank">联系我们</a></li>
+                    <li> <a href="https://www.imooc.com/about/recruit" target="_blank">讲师招募</a></li>
+                    <li> <a href="https://www.imooc.com/help/cate/18" target="_blank">帮助中心</a></li>
+                    <li> <a href="https://www.imooc.com/user/feedback?class" target="_blank">意见反馈</a></li>
+                    <li><a href="http://daxue.imooc.com/" target="_blank">慕课大学</a></li>
+                    <li><a href="https://git.imooc.com/" target="_blank">代码托管</a></li>
+                    <li> <a href="https://www.imooc.com/about/friendly" target="_blank">友情链接</a></li>
+                </ul>
+            </div>
+            <p>Copyright <img draggable="false" class="moco-emoji" alt="©" src="./Java常量与变量-慕课网就业班_files/a9.png"> 2020 imooc.com All Rights Reserved | 京ICP备 12003892号-11 <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802030151" style="margin:0 5px;color: #787D82;margin:0 5px;" target="_blank"><i class="beian"></i>京公网安备11010802030151号</a></p>
+        </div>
+    </div>
+</div>
+</div>
+
+<div id="J_GotoTop" class="elevator">
+    <a href="https://www.imooc.com/user/feedback?class" class="elevator-msg" target="_blank">
+        <i class="imv2-feedback"></i>
+        <span class="">意见反馈</span>
+    </a>
+    <a href="https://order.imooc.com/pay/sharegoods" class="elevator-dist" style="display:none;" target="_blank">
+        <i class=""></i>
+        <span class="">分销返利</span>
+    </a>
+    <a href="https://www.imooc.com/act/invite" style="display:none;" class="elevator-dist" target="_blank">
+        <i class=""></i>
+        <span class="">邀请有奖</span>
+    </a>
+    <a href="https://www.imooc.com/help/cate/18" class="elevator-faq" target="_blank">
+        <i class="imv2-help_outline"></i>
+        <span class="">帮助中心</span>
+    </a>
+    <a href="https://www.imooc.com/mobile/app" target="_blank" class="elevator-app">
+        <i class="imv2-appdownload"></i>
+        <span class="">APP下载</span>
+        <div class="elevator-app-box"></div>
+    </a>
+    <a href="javascript:void(0)" class="elevator-weixin no-goto" id="js-elevator-weixin">
+        <i class="imv2-weixigzh"></i>
+        <span class="">官方微信</span>
+        <div class="elevator-weixin-box"></div>
+    </a>
+    <a href="javascript:void(0)" class="elevator-top no-goto" style="display: none;" id="backTop">
+        <i class="imv2-arrow2_u"></i>
+        <span class="">返回顶部</span>
+    </a>
+</div>
+
+
+<div id="certificate-mode" data-id="83" class="certificate-mode ">
+	<div class="certificate-wrap">
+		<img src="https://class.imooc.com/course/1347" alt="">
+	</div>
+	<div class="generate-report-mode">
+		<a href="javascript:;" class="js-generate-report generate-report">炫耀一下</a>
+	</div>
+</div>
+
+<div id="certificate-mode-opt" class="certificate-mode-opt certificate-mode "></div>
+
+
+
+<script type="text/javascript" src="./Java常量与变量-慕课网就业班_files/error.js.下载"></script>
+<script src="./Java常量与变量-慕课网就业班_files/swiper.min.js.下载"></script>
+<script type="text/javascript" src="./Java常量与变量-慕课网就业班_files/require.js.下载"></script>
+<script src="./Java常量与变量-慕课网就业班_files/jquery.min.js.下载"></script>
+<script src="./Java常量与变量-慕课网就业班_files/qrcode.js.下载"></script>
+
+<script src="./Java常量与变量-慕课网就业班_files/ueditor.config.js.下载"></script>
+<script src="./Java常量与变量-慕课网就业班_files/ueditor.parse.js.下载"></script>
+
+
+<script src="./Java常量与变量-慕课网就业班_files/ssologin.js.下载"></script>
+<script type="text/javascript" src="./Java常量与变量-慕课网就业班_files/moco.min.js.下载"></script>
+<script>
+requirejs.config({
+    urlArgs: requirejsTimestamp,
+    baseUrl: '/static/module/',
+    skipDataMain: true,
+    waitSeconds: 0,
+    paths: {
+        lib: '/static/lib',
+        socketio: '/static/lib/socket.io/1.3.6/socket.io.min.js',
+        store: '/static/lib/store/store.min.js',
+        // ueditor: '/static/lib/ueditor/ueditor.final.min.js',
+        ueditor: '/static/lib/ueditor/ueditor.all.js',
+        moco: '//www.imooc.com/static/moco/v1.0/dist/js/moco.min.js',
+        scrollbar: '/static/lib/scrollbar/jquery.scrollbar.js',
+        scrollbar2: '/static/lib/scrollbar2.0/scrollbar2.0.js',
+		juicer: '/static/lib/juicer/juicer.min.js',
+		ace: '/static/lib/ace1.2.6/ace.js',
+		//ace: '/static/lib/ace/src/ace.js',
+        pagination: '/static/lib/pagination/jquery.pagination.js',
+		swfobject: '/static/lib/swfobject/2.2/swfobject.min.js',
+		uploader: '/static/lib/webuploader/0.1.5/webuploader.js',
+        jwplayer: '/static/lib/jwplayer/1.0.0/jwplayer.js?v=1.1',
+        ide: '/static/lib/ide/dest/ide.min.js',
+        autocomplete:'/static/lib/util/autocomplete.js',
+        validate:'/static/lib/util/validate.js',
+        placeholder:'/static/lib/util/placeholder.js',
+        modalbutton:'/static/lib/util/modal.button.js',
+        scrollbar: '/static/lib/scrollbar/jquery.scrollbar.js',
+        SyntaxHighlighter:'/static/lib/ueditor/third-party/SyntaxHighlighter/shCore.js',
+        socketio: '/static/lib/socket.io/1.3.6/socket.io.min.js',
+        clipbord: '/static/lib/clipboard/dist/clipboard.min.js',
+        jqueryValidate: '/static/lib/jquery-validate/jquery.validate.min.js'
+    },
+	shim: {
+        'swfobject': {
+            exports: 'swfobject'
+        }
+    }
+});
+</script>
+
+<script type="text/javascript" src="./Java常量与变量-慕课网就业班_files/common.js.下载"></script>
+
+
+
+
+
+	
+		<script data-entry="course/js/index">
+		requirejs(['course/js/index'], function(){
+    });
+	</script>
+
+    <script data-entry="course/js/index">
+		requirejs(['course/js/index'], function(){
+    });
+	</script>
+
+
+
+<div style="display: none">
+	<script>
+	var _hmt = _hmt || [];
+	(function() {
+	  var hm = document.createElement("script");
+	  hm.src = "https://hm.baidu.com/hm.js?76783e78c7e55cc7eae7861a979dd444";
+	  var s = document.getElementsByTagName("script")[0];
+	  s.parentNode.insertBefore(hm, s);
+	})();
+	</script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</div>
+<script>
+    var isLogin = 1
+</script>
+
+
+<div id="diigo-video-capture" style="display: none;"><div id="diigo-video-capture-container"><div id="diigo-video-capture-logo"></div>Capture</div></div><div id="diigo-video-capture-wrapper"><div id="diigo-video-capture-wrapper-tip">Drag to outliner or <span id="diigo-video-capture-upload">Upload</span></div><div id="diigo-video-capture-wrapper-close">Close</div></div><div id="diigo-chrome-installed" style="display: none;"></div></body></html>

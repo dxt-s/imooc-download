@@ -1,0 +1,51 @@
+// https://class.imooc.com/lesson/ajaxmediainfo?mid=41093
+
+//  https://class.imooc.com/lesson/m3u8h5?mid=41093&cid=1330&ssl=1&cdn=aliyun1
+
+
+{
+    "result": 0,
+    "data": {
+        "media_info": {
+            "id": "41093",
+            "course_id": "1330",
+            "chapter_id": "5165",
+            "name": "Java\u5de5\u7a0b\u5e082020\u7248\u5bfc\u5b66",
+            "type": "1",
+            "type_id": "5f8e7c92255ba9031b531997",
+            "seqid": "1",
+            "create_time": "1603173526",
+            "status": "1",
+            "update_time": "1603175849",
+            "online_time": "1603175840",
+            "pid": "0",
+            "is_try_see": "0",
+            "is_watermark": "1",
+            "is_new": "0",
+            "chapter_seqid": "1",
+            "chapter_name": "\u6982\u8ff0",
+            "video_name": "jiuyeban2\/M00\/00\/23\/CmQPcF-OfJCAWVV5BqJoZBWu3vs889.mp4",
+            "video_duration": "703.000",
+            "user_video_time_point": "12",
+            "user_finished": "1",
+            "user_tag": "0",
+            "course_name": "Java\u521d\u8bc6",
+            "plan_name": "Java \u5de5\u7a0b\u5e082020\u7248",
+            "sub_name": "\u4e00",
+            "chapter_media": "1-1"
+        },
+        "next_media_info": {
+            "id": "33178",
+            "name": "\u7b2c1-2\u5468\u5bfc\u5b66",
+            "type": "1",
+            "type_id": "5eb6499bcd5ca97a0478efd7",
+            "seqid": "2",
+            "chapter_id": "5165",
+            "duration": "00:55",
+            "chapter_media": "1-2"
+        },
+        "type": "1"
+    },
+    "msg": "\u6210\u529f"
+}
+
